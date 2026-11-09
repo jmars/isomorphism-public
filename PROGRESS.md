@@ -27,10 +27,144 @@ scripts/sync-check.sh (both spiked before writing). Citation ledger: citations.m
   contain no Part IV dependency (remove-IV read-through stands).
 - citations.md: rutten2000/turner2004/hofstadter2007 marked unused (trimmed from
   final text); roberts1984/segal1996/pessoa remain needs-human (edition details).
+- Citation/references verification pass (implementer, 2026-11-09; offline, internal knowledge
+  only). CHANGED — paper.md References only: Howard 1980 book title completed ("To H. B.
+  Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism", eds. Seldin &
+  Hindley); Birkedal et al. fourth author corrected Kristoffersen → Støvring; Nietzsche
+  translation publisher added (Vintage Books); [ODE] now defined at the Armed Configuration
+  entry ("cited throughout as [ODE]", = Zenodo 22943641). citations.md: same author fix;
+  segal1996 promoted to verified (Blue Dove Press, 1996); roberts1984 and pessoa stay
+  needs-human with the specific doubt recorded; new row care-derived (the References entry
+  had no row — 1:1 restored); "Verification notes" section added (incl. Nietzsche §125 quote
+  check). FINDINGS (not fixed — outside the References-only edit scope): (a) the four-state
+  taxonomy is cited twice as "[MEASURED — prior artifact]" with no title and has no
+  References entry and no row — the only body→References gap; needs a titled artifact
+  entry (human supplies title/DOI) or a body reword; (b) five program artifacts ship in
+  References but are never named in the body: common-source, dissolution-exit, not-free,
+  terminates, care-derived (care-derived was also row-less). House Rules is unused by
+  design (ledger #12) and is the one ledgered exception. Quote fidelity: the two §125 spans
+  match Kaufmann as remembered, the ellipsis replaces "Are we not straying as through an
+  infinite nothing?"; no wording changed, no phrase flagged suspect; physical-text check is
+  the human's. Awaiting-list item 3 now has TWO needs-human rows (Roberts, Pessoa), not
+  three. GATES (once, at the end): paper-check ALL GREEN (8,240 words, thresholds cited,
+  House Rules exactly once); sync-check ALL GREEN (22 Dcare anchors + 4 constructors).
+- Network pass (same session, 2026-11-09; the brief said offline — the USER authorized
+  network, so this is on their instruction, not the brief). Sources: Crossref, OpenLibrary
+  search + editions APIs, Zenodo records API, blog.jaye.ch index, published reproductions
+  of Kaufmann's §125. CORRECTIONS THAT MATTER: (a) lindahl2017 was WRONG — PLoS ONE
+  **12(5): e0176239**, not 12(3): e0173000 (that DOI is an unrelated CYFIP1/NOTCH1 genetics
+  paper); fixed in paper + row. (b) Zenodo 22943641 is a CONCEPT DOI resolving to record
+  23136326, *Self-Application as the Common Source of Benefit and Failure: A
+  Control-Theoretic Model of Self-Regulation, Its Escapes, and a Standing-Cost Budget* —
+  the program name *The Armed Configuration* is NOT the deposited title; the reference now
+  gives the deposit and keeps the program title as a gloss, and the thresholds were located
+  in that deposit's own manuscript (0.4795 ≈ E* = 0.4969; c_mon_crit 0.511; ungated 0.112;
+  r·φ 0.1122), so [ODE] = 22943641 is correct and the gate invariant is untouched.
+  (c) common-source and ode-model are the SAME deposit — merged to one entry, row marked
+  unused (human can split it back if an un-deposited artifact exists). (d) 23967914 is
+  titled *The armed configuration: standing prevention outperforms…*, not *Self-applied
+  procedure that terminates*; program title kept as gloss. (e) DOIs added for
+  chain-knowers (23993140), not-free (23130383), dissolution-exit (23969334).
+  (f) roberts1984 = Shambhala 1984 (editions: Iroquois House 1982; Shambhala 1984; SUNY
+  1993) and pessoa = Allen Lane 2001 — both now verified; segal1996 and birkedal2012
+  (Støvring) confirmed. Nietzsche quote re-checked against reproductions of Kaufmann: both
+  spans verbatim, elided sentence is "Are we not straying, as through an infinite
+  nothing?"; added pp. 181–182; no wording changed. NO needs-human rows remain (the old
+  Awaiting item 3 is now satisfied; only the human's physical-book check is outstanding).
+  GATES re-run after these edits: paper-check ALL GREEN (8,340 words); sync-check ALL
+  GREEN. Still open: the untitled four-state taxonomy citation (body→References gap).
 
 ## Awaiting the human (S6 sign-off)
 1. Full read against the dual-use line (the one gate only the human runs) — Part IV
    and §3.7 are the sections closest to the bridge.
 2. Title pick from the five candidates in the Findability plan.
-3. The three needs-human citation rows (Roberts publisher; Segal year/publisher;
-   Pessoa edition) before any deposit.
+3. The remaining needs-human citation rows (Roberts publisher; Pessoa edition/year)
+   before any deposit. NOTE: the four-state transparency taxonomy (§2.2) is cited as
+   "[MEASURED — program prior work]" — pin WHICH artifact/title carries it before
+   deposit (framework vs case study vs blog).
+- Post-pass author follow-up (planner): resolved the coder's five orphan-reference
+  findings with in-body title weaves (§1.3 not-free; §2.3 dissolution-exit case study;
+  §2.4 rerun 23967914; §3.3 common-source; §3.8 care-derived — each now named in body
+  and References); fixed the two untitled "[MEASURED — prior artifact]" labels
+  (§2.2 taxonomy → "program prior work" with a pin-me note above; §2.3 optimizer →
+  "ODE model"); disambiguated the two Metzinger uses (2003; 2009). Gates re-run:
+  BOTH ALL GREEN, 8,396 words.
+- Coder pass (edition-level citation resolution): Roberts 1984 = 1st Shambhala ed. of the 1982 Iroquois House first edition (LOC MODS records 915746/3786046 — no IONS, no Warner edition exists); Pessoa = London: Allen Lane 2001, first printing of Zenith's translation (LOC 12923301 = the 2003 Penguin Classics printing of the same text; no revised Zenith edition found); Nietzsche §125 = "The madman", Book Three, pp. 181–182, both quoted spans verbatim on the Vintage 1974 scan, and the earlier note's stray comma in "straying as through an infinite nothing" removed. Provenance URLs in citations.md. No paper.md change needed (quotation and all three references already correct).
+- Post-w2 verification (planner): independently re-checked every unreported paper.md edit
+  w2 made, via crossref/PLOS + Zenodo API. ALL CONFIRM: Lindahl DOI corrected e0173000 →
+  e0176239 12(5) (the planner's original DOI was a DIFFERENT paper — confabulation caught);
+  22943641 is the CONCEPT DOI for version record 23136326, full title "Self-Application as
+  the Common Source of Benefit and Failure: A Control-Theoretic Model of Self-Regulation,
+  Its Escapes, and a Standing-Cost Budget" — so program short names "The Armed
+  Configuration" AND "Self-Application as the Common Source" are ONE deposit (w2's merge
+  correct); new artifact DOIs all resolve: Chain 23993140, Dissolution-exit 23969334,
+  Not-free 23130383, terminates 23967914. References entry now names both short names so
+  the §3.3 body cite resolves. Citation ledger: ZERO needs-human rows remain. Gates both
+  ALL GREEN after the edit.
+- TAXONOMY PIN RESOLVED (user, 2026-11-09): the four-state grid is the program's
+  construction on METZINGER's transparency axis, substrate = his self-model /
+  minimal-viable-self work — not an unlocated program artifact (checked: no Zenodo
+  abstract carries it; the Chain paper's "taxonomy" is the unrelated care-tier one).
+  §2.2 rewritten: axis attributed to Metzinger (2003; 2009), grid described as
+  axis×functionality, load-bearing claim RELABELED [MEASURED — program prior work] →
+  [INTERPRETATION — program reading of Metzinger's axis] — the paper's own standard
+  demanded it: no artifact vouches for the access/integration split. OPEN (one-line
+  answer wanted at deposit): WHICH Metzinger locus for "minimal viable self" — a
+  specific MVS paper to add to the ledger, or are the two books sufficient?
+- LENS SUBSECTION added (user's point: "the formalism implies the self is a lens in the
+  literal sense, and not a noun"): new §3.5 "The self is a lens, not a noun" — anchors:
+  Dcare.SelfClassifies carries literally a reflection lens (▷K → K, self-model derived
+  by fix, "machinery not an assumed variable"), Dcare.no_closed_knower (source-status
+  is a sustained role, not a possession — no closed term inhabits K), and the optical
+  grammar of Metzinger's own axis (transparency is a property of media, not objects —
+  foreshadowed in §2.2). The pathological row reread: the lens visible, jammed,
+  distressed by its own visibility — same optical configuration as the functional row,
+  differently integrated (matches the user's same-phenomenology/different-distress
+  formulation). §4.6 gains the noun-language closing beat; abstract gains the lens
+  thesis. Old §3.5-3.8 renumbered to §3.6-3.9 (no cross-references existed; verified).
+  Gates BOTH ALL GREEN, 8,840 words.
+- NEURO THREADS (user's two additions, both run through verification):
+  (1) DPDR/functional-opaque overlap (w3, 14 verified rows): phenomenological overlap
+  MEASURED (Castillo 1990; Deane 2020; Pons 2026 — a systematic survey; valence-not-type:
+  Millière 2017; nuance: Levin 2022 — DPDR co-varies with equanimity/nonreactivity);
+  NEURAL overlap NOT established (no shared-measure study; signatures pull opposite ways
+  at prefrontal-limbic axis: DPDR hypo-limbic+prefrontal inhibition vs dissolution
+  decoupling+global connectivity). §2.2 gained the empirical-shadow paragraph + the
+  scheduled-address sentence pointing at the planned DPDR clinical companion (queue #6,
+  dpdr-clinical.md — its claim-under-test IS the grid's load-bearing edge).
+  (2) Wave-interference intervals (w4, 11 verified rows): NEGATIVE RESULT — the claim as
+  briefed ("wave interference creates discrete intervals"; the "discrete, rhythmically
+  gated operations" quote) is NOT in the published record; neural-waves.md fused three
+  literatures (wave gating: Muller 2018/Davis 2020/Bhattacharya 2022/Chen 2026 — real;
+  rhythmic sampling: VanRullen 2016/Fiebelkorn 2019 — real; oscillatory-interference
+  TIMING MODELS: Miall 1989/Matell 2004 — real, model-level). The field's own guideline
+  review calls the waves→discrete-perception link "typically rather vague" (Menétrey
+  2022) and Miller's own J Neurosci waves paper argues ANALOG computation (2026) —
+  counter-row added so the paper cannot misattribute. §3.4 gained the neural-shadow
+  paragraph: same asymmetry as §2.2 (gating measured, interference modeled, join
+  unproven); Φ₃ stated as EXPOSING a mechanism, not borrowing one [INTERPRETATION/
+  PROJECTION]. References: two new clusters (DPDR empirical; brain dynamics). Ledger
+  60 rows, ZERO needs-human; two stale notes resolved. Gates BOTH ALL GREEN, 9,830 words.
+- REVIEW (w5, reviewer preset) — verdict: NO BLOCKERS; deposit-ready modulo the human
+  sign-off read. All 22 Dcare anchors verified against the Lean sources (dimension 1
+  CLEAN — the earlier closed-term/unsoundness fixes confirmed holding); citation
+  fidelity clean for both empirical paragraphs; Φ stays [INTERPRETATION] throughout;
+  dual-use + remove-Part-IV stop-condition test PASSES; both gates re-run green by the
+  reviewer. Findings and fixes, ALL APPLIED by planner:
+  SF1 "numerically identical" escape floor (x2) — the deposit itself writes 0.4795 ≈
+     E* = 0.4969; both spots now say "coinciding in the dynamics", quoting the
+     deposit's form (reviewer also surfaced /workspace/archive/ — local copies of the
+     program's prior papers, unknown to this lane until now).
+  SF2 [MEASURED — cited account/corpus] on Roberts/Segal/Pessoa — memoir/literary
+     corpus is documentary, not machine-checked/quantitative; all three relabeled
+     [INTERPRETATION — structural reading of the cited account/corpus].
+  P1 knower duplication phrasing was the stale Syntax.lean reading — now the affirmed
+     one (gated structural rule Typed.contr; gen as operational license).
+  P2 hosted-case transfer labeled [MEASURED — standard] (x2); Part IV evaluative
+     phrasing derhetoricized ("was someone else" → "only at the end — and from
+     outside"; "at terrible cost / deserve the name" → "in exactly the sense Φ₁
+     gives the word"); "two conservation upper bounds" corrected to "two linearity
+     non-derivability theorems" (conservation is proven in Flow.lean; the open items
+     are the two sorried theorems, unnameable in the paper by our own gate);
+     citations.md stale §3.8→§3.9; four available-uncited rows marked.
+  Gates BOTH ALL GREEN after all fixes.
