@@ -22,6 +22,8 @@ in the paper as a plausible-looking reference without a row here.
 | hofstadter2007 | (available; 1979 cited instead) | Hofstadter, D. (2007). *I Am a Strange Loop.* Basic Books | unused |
 | metzinger2003 | self-model theory; the self-model as construction (premise, cited not re-argued) | Metzinger, T. (2003). *Being No One.* MIT Press | verified |
 | metzinger2009 | transparency of the self-model, popular form | Metzinger, T. (2009). *The Ego Tunnel.* Basic Books | verified |
+| blanke2009 | §2.2, the "minimal-self" half of the (2003; 2009) attribution — the precise locus where Metzinger introduces **minimal phenomenal selfhood** (MPS): the minimally sufficient conditions for the appearance of a *phenomenal* self, framed as the global and unitary character of self-consciousness ("the 'I' of experience and behaviour") rather than as a body-part or action representation. The paper attributes its §2.2 axis-substrate to this term — MPS, not the retired program coinage (user decision, 2026-11-11). The coinage itself appears in no Metzinger-authored record (see the phrase-search note below). | Blanke, O., Metzinger, T. (2009). *Full-body illusions and minimal phenomenal selfhood.* Trends in Cognitive Sciences 13(1):7–13. DOI 10.1016/j.tics.2008.10.003, PMID 19058991 | verified (Crossref published-print 2009-01 + PubMed, 2026-11-11) |
+| metzinger2020 | §2.2, precise single-author locus for the *minimal* self and for the axis at its minimum: develops "minimal phenomenal experience" (MPE) as the simplest form of consciousness; its own keyword list carries **Minimal phenomenal selfhood** and **Transparency**; it restates the axis as a spectrum — "A spectrum therefore exists between phenomenal opacity and phenomenal transparency, and any given content can vary along this spectrum" — and defers MPS to Blanke & Metzinger 2009. Introduces MPE, not "minimal viable self" | Metzinger, T. (2020). *Minimal phenomenal experience: Meditation, tonic alertness, and the phenomenology of "pure" consciousness.* Philosophy and the Mind Sciences 1(I):1–44. DOI 10.33735/phimisci.2020.i.46 | verified (Crossref + publisher DOI resolution, 2026-11-11) |
 | lindahl2017 | contemplative adverse-effects literature (background cluster) | Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., Britton, W. B. (2017). *The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists.* PLoS ONE 12(5): e0176239 | verified |
 | simeon2006 | DPDR clinical literature (background cluster) | Simeon, D., Abugel, J. (2006). *Feeling Unreal.* Oxford University Press | verified |
 | roberts1984 | near-miss exemplar: no-self documented inside a religious container | Roberts, B. (1984). *The Experience of No-Self: A Contemplative Journey.* Shambhala, 1st Shambhala ed. (first ed. Iroquois House, Sunspot NM, 1982; SUNY rev. ed. 1993) | verified |
@@ -52,7 +54,7 @@ in the paper as a plausible-looking reference without a row here.
 | sierra1998 | §2.2 (b), DPDR side: fronto-limbic disconnection model — prefrontal attentional/regulatory systems inhibit the amygdala and anterior cingulate, yielding hypoemotionality, dampened autonomic output and the "unreality/detachment" report | Sierra, M., Berrios, G. E. (1998). *Depersonalization: neurobiological perspectives.* Biol Psychiatry 44(9):898–908. DOI 10.1016/s0006-3223(98)00015-8, PMID 9807645 | verified |
 | phillips2001 | §2.2 (b), DPDR side, measured: patients show reduced insula and occipito-temporal response to aversive scenes together with increased right ventral prefrontal response — absent emotional experience with heightened emotion regulation | Phillips, M. L., Medford, N., Senior, C., Bullmore, E. T., et al. (2001). *Depersonalization disorder: thinking without feeling.* Psychiatry Res 108(3):145–160. DOI 10.1016/s0925-4927(01)00119-6, PMID 11756013 | verified |
 | millman2024 | §2.2 (b), DPDR side, systematic review of experimental evidence: diminished subjective responsivity to aversive stimuli plus hyperactivation of emotion-regulation circuits, with inconsistent autonomic and self-referential findings | Millman, L. S. M., Huang, X., Wainipitapong, S., Medford, N., Pick, S. (2024). *Behavioural, autonomic, and neural responsivity in depersonalisation-derealisation disorder: A systematic review of experimental evidence.* Neurosci Biobehav Rev 163:105783. DOI 10.1016/j.neubiorev.2024.105783, PMID 38944228 | verified |
-| dorziderman2013 | (available, not cited) — | §2.2 (b), meditation side: MEG neurophenomenology of mindfulness-induced selflessness in long-term meditators — the meditative pole has its own neural signature, measured on meditators only | Dor-Ziderman, Y., Berkovich-Ohana, A., Glicksohn, J., Goldstein, A. (2013). *Mindfulness-induced selflessness: a MEG neurophenomenological study.* Front Hum Neurosci 7:582. DOI 10.3389/fnhum.2013.00582, PMID 24068990 | verified |
+| dorziderman2013 | (available, not cited) — §2.2 (b), meditation side: MEG neurophenomenology of mindfulness-induced selflessness in long-term meditators — the meditative pole has its own neural signature, measured on meditators only | Dor-Ziderman, Y., Berkovich-Ohana, A., Glicksohn, J., Goldstein, A. (2013). *Mindfulness-induced selflessness: a MEG neurophenomenological study.* Front Hum Neurosci 7:582. DOI 10.3389/fnhum.2013.00582, PMID 24068990 | verified |
 | nour2017 | (available, not cited) — was §2.2 (a): framing piece treating psychedelic self-dissolution and depersonalization as one science of self-experience | Nour, M. M., Carhart-Harris, R. L. (2017). *Psychedelics and the science of self-experience.* Br J Psychiatry 210(3):177–179. DOI 10.1192/bjp.bp.116.194738, PMID 28249943 | verified |
 | muller2018 | §3.4, thread row: travelling waves in cortex "transiently modulating spiking and excitability as they pass" — the measured, reviewed basis for "waves coordinate cortex"; carries NO claim that interference creates discrete intervals | Muller, L., Chavane, F., Reynolds, J., Sejnowski, T. J. (2018). *Cortical travelling waves: mechanisms and computational principles.* Nat Rev Neurosci 19(5):255–268. DOI 10.1038/nrn.2018.20, PMID 29563572 | verified |
 | davis2020 | §3.4, thread row: the "gates" fragment in its strongest measured form — the timing and position of *spontaneous* travelling waves before target onset predicted target-evoked activity and "the likelihood of target detection" (title claim: waves "gate perception"); marmoset V1/extrastriate, not human cognition | Davis, Z. W., Muller, L., Martinez-Trujillo, J., Sejnowski, T., Reynolds, J. H. (2020). *Spontaneous travelling cortical waves gate perception in behaving primates.* Nature 587(7834):432–436. DOI 10.1038/s41586-020-2802-y, PMID 33029013 | verified |
@@ -278,3 +280,77 @@ the two blog artifacts' titles. Rows not named here matched their record exactly
   claimed level; and the "interference" language that does exist around travelling waves is either
   the HORN oscillator model (PNAS 2025, PMID 39847330, "stimulus-induced interference patterns") or
   a 2026 Frontiers *proposal* (PMID 42553156) — neither claims interference discretizes cognition.
+
+- **§2.2 Metzinger minimal-self locus (2 rows added) — "minimal viable self" IS NOT his
+  phrase.** The question was whether a more precise citable locus than the two books exists
+  for the paper's "minimal viable self". Answer: the *notion* exists, under Metzinger's own
+  term **minimal phenomenal selfhood (MPS)**, introduced in Blanke & Metzinger 2009 (TICS
+  13(1):7–13) and developed in Metzinger 2013 (the dreams paper, *Front Psychol* 4:746,
+  DOI 10.3389/fpsyg.2013.00746, PMID 24198793) and Metzinger 2020 (MPE). The *phrase*
+  "minimal viable self" appears in no Metzinger-authored record in any index consulted, and
+  in no record at all in the indexes that could be phrase-searched. Measured, 2026-11-11:
+  OpenAlex exact-phrase search for `"minimal viable self"` returns **0 works** globally and
+  **0** within Metzinger's author cluster (OpenAlex A5036226202, 148 indexed works), while
+  `"minimal phenomenal selfhood"` returns 616 works, `"minimal phenomenal self"` 45, and
+  `"minimal self"` 7531 — the phrase family exists, the specific phrase does not. PubMed
+  `"minimal viable self"[tiab]` → 0; `"minimal phenomenal self"[tiab]` → 0 (PubMed indexes
+  the MPS literature under "minimal phenomenal selfhood", 6 records). DOAJ quoted-phrase
+  search → 0. The published full text of Metzinger 2020 contains **0** occurrences of
+  "minimal viable self" and **0** of "viable self"; "minimal phenomenal selfhood" occurs
+  three times (its own keyword list, one in-text mention, and the Blanke & Metzinger
+  reference entry), and the paper cites the 2003 PCS transparency paper as its reference
+  "2003b" alongside *Being No One* as "2003a".
+- **§2.2 search hygiene for the phrase pass, reported rather than smoothed over.** Crossref's
+  `query.bibliographic` has **no phrase operator** — quoted input is tokenized and
+  OR-weighted, and the query `"minimal viable self"` answered 1,378,400 results whose top
+  hits are unrelated ("MVP: The Minimal Viable Person", "Minimal viable sound systems for
+  language evolution") — so Crossref was used for metadata and DOI resolution only, never as
+  phrase evidence. Semantic Scholar answered HTTP 429 on every attempt (no key), as in the
+  §2.2 and §3.4 passes. PhilPapers answered HTTP **403** (Cloudflare interstitial) for the
+  quoted search and could not be used. The Google Books API answered HTTP **429** (daily
+  quota exhausted), so the 2003/2009 books' own full text could **not** be phrase-searched —
+  "MVS appears nowhere in *Being No One* or *The Ego Tunnel*" is therefore **unverified**,
+  not refuted. philosophyofmind.de failed to connect (http 000); the uni-mainz Metzinger
+  paths tried (`/fb05-philosophie-metzinger/publikationen/`, `/philosophie.uni-mainz.de/
+  metzinger/`) answered 404, so no self-maintained publication list could be read.
+- **§2.2 DOAJ lead corrected.** *Philosophy and the Mind Sciences* **is** a DOAJ journal
+  (eISSN 2699-0369, no APC) but DOAJ holds **zero article records** for it
+  (`bibjson.journal.title:"Philosophy and the Mind Sciences"` → 0; a DOI-identifier query →
+  0), so the brief's "PhiMiSci is DOAJ-indexed" is true of the journal and useless at
+  article level: the 2020 paper cannot be confirmed through DOAJ. It was confirmed through
+  Crossref and the publisher instead.
+- **§2.2 DOI and title corrections against the brief's lead.** The lead DOI
+  `10.33797/phims-ci.01.I.02` **does not exist**; the real record is
+  **10.33735/phimisci.2020.i.46**, which resolves (HTTP 200) to
+  philosophymindscience.org/index.php/phimisci/article/view/8960. Vol 1, issue "I",
+  pp. 1–44, published 2020-03-24, single author, CC-BY, registered publisher
+  "Universitatsbibliothek der Ruhr-Universitat Bochum". The published subtitle is
+  "…the phenomenology of *"pure"* **consciousness**", **not** "pure awareness" — Crossref's
+  title and the publisher's own `citation_title` meta agree. The "pure awareness" wording
+  belongs to the different, co-authored work: Gamma & Metzinger, *The Minimal Phenomenal
+  Experience questionnaire (MPE-92M): Towards a phenomenological profile of "pure awareness"
+  experiences in meditators*, PLoS ONE 16(7):e0253694 (2021), DOI 10.1371/journal.pone.0253694.
+- **§2.2 found and NOT rowed, for the human's call.** Metzinger, T. (2003). *Phenomenal
+  transparency and cognitive self-reference.* Phenomenology and the Cognitive Sciences
+  **2(4):353–393**, DOI 10.1023/b:phen.0000007366.42918.eb (Crossref-confirmed) — the
+  paper-form statement of the transparency axis itself, and the work the 2020 paper cites as
+  "2003b" alongside *Being No One*. §2.2's "transparency axis" attribution could name it,
+  which would pin the *axis* as the two new rows pin the *substrate*; it was left out of the
+  ledger only because the brief scoped the two rows to the minimal-self locus. Two other
+  verified loci deliberately not rowed: Metzinger 2013 (the dreams paper) is redundant with
+  blanke2009, and the Gamma & Metzinger 2021 questionnaire paper is a psychometric
+  instrument, not a locus for the notion.
+- **§2.2 recommendation.** (i) **Add blanke2009, not only the 2020 paper** — for the phrase
+  the paper actually uses as its substrate ("minimal viable self"), Blanke & Metzinger 2009
+  is the nearer match, and it is the locus Metzinger himself defers to when the term comes
+  up (2020's keyword list and its "instantiate minimal phenomenal selfhood (Blanke &
+  Metzinger, 2009)" both point there). (ii) **Add metzinger2020 as the third locus** as well:
+  it is single-author, open access, and the only place where he restates the axis as a
+  spectrum in his own words. (iii) Keeping the two books alone remains *honest* —
+  `metzinger2003` and `metzinger2009` are both verified — but the paper should then own
+  "minimal viable self" as its own coinage rather than as Metzinger's term. What is **not**
+  available is citing a Metzinger "MVS" paper: there is none.
+- **USER DECISION (2026-11-11):** the paper uses **minimal phenomenal selfhood**
+  (Metzinger's own term, Blanke & Metzinger 2009), NOT the program coinage
+  "minimal viable self" — the coinage is retired from this artifact. The search
+  record above is retained as the verification trail for that decision.

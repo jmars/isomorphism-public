@@ -234,3 +234,50 @@ scripts/sync-check.sh (both spiked before writing). Citation ledger: citations.m
   carried by scope item 2's "five fragment strengths"); dynamics plumbing subsumed by
   cited results (always_continue_infinite, run_not_infinite_is_finite,
   looped_only_spins, fix_unfold_closed). Gates BOTH ALL GREEN, ~10.6k words.
+- TITLE SET (user pick, candidate 3): "The Guarded Line: What Metacircular Proof
+  Theory and Self-Model Dynamics Share" — H1 changed; Findability plan marks the
+  choice and keeps the candidate list.
+- METZINGER LOCUS RESOLVED (w8, network): "minimal viable self" appears in ZERO
+  records anywhere (OpenAlex 0 works globally; 0 in Metzinger's 148-work corpus;
+  PubMed/DOAJ 0; not in the 2020 full text) — it is the program's coinage, not his
+  term. Metzinger's term is MINIMAL PHENOMENAL SELFHOOD, introduced in Blanke &
+  Metzinger 2009 (TiCS 13(1):7-13, DOI 10.1016/j.tics.2008.10.003), with the
+  single-author axis restatement in Metzinger 2020 (PhiMiSci 1(I):1-44, DOI
+  10.33735/phimsci.2020.i.46 — both API-verified; w8 also caught two near-miss
+  errors in my leads: the phims-ci DOI does not exist and the subtitle is "pure
+  consciousness" not "pure awareness"). §2.2 now cites "the minimal-phenomenal-
+  selfhood literature he co-founded (Blanke & Metzinger 2009; Metzinger 2020)";
+  References gained both entries. Also fixed a stray pipe in the dorziderman2013
+  row (pre-existing formatting slip w8 flagged). NOTE for program vocabulary: if
+  "minimal viable self" stays in program use, own it as a coinage — no citable
+  Metzinger MVS locus exists. Gates BOTH ALL GREEN, ~10.7k words. Uncommitted.
+- USER DECISION (2026-11-11): the paper uses METZINGER'S OWN TERM — minimal
+  phenomenal selfhood (Blanke & Metzinger 2009) — and the program coinage "minimal
+  viable self" is RETIRED from this artifact. Paper body verified coinage-free;
+  ledger rows updated; the verification notes retain the search trail (that is the
+  record of why the decision was made); decision note appended to citations.md.
+- FULL REVIEW ROUND 2 (w9, reviewer preset, working-tree state): verdict NO BLOCKERS,
+  3 SHOULD-FIX, 4 POLISH; "deposit-ready modulo the human sign-off read once the three
+  should-fix items land." All nine newest Lean anchors verified statement-by-statement
+  (sFlowEq debtor signature, fix_knower_supply hypotheses, no_closed_later_stream
+  fragment condition, adversary_blind_transfer, inert_knowledge, spin recurrence,
+  flowEq's shape, the cut step-vs-global boundary, the extractor trio) — no
+  stronger-than-the-theorem errors. ALL FINDINGS APPLIED:
+  SF1 (rank 1) §2.3's "optimizer over representational fidelity [MEASURED — ODE
+     model]" CONTRADICTED ITS VOUCHER — the deposit's RHS is a scalar error E = D − G
+     with no representational term, and its §14 marks every agent-level statement as
+     interpretation. Rewritten: the measured variable named as scalar error; the
+     optimizer reading now [INTERPRETATION — program reading of the ODE model].
+  SF2 the "framework artifact names them" attribution — the archived manuscript
+     carries a chain-behaviour trichotomy, not the loop names; now attributed to
+     "the program's framework vocabulary" (with the trichotomy noted), and "holdable
+     self-model" flagged as the program's name.
+  SF3 Appendix A had re-opened (6 body anchors without rows — the accumulation
+     passes outgrew it again); all six added; body-vs-appendix diff now CLEAN by
+     the reviewer's own method.
+  P1 §3.7/§3.3 books-and-budget duplication trimmed (§3.7 bullet now cross-refs).
+  P2 process-relative phrasing ("Since this writing", "now mechanized" x2)
+     reworded timeless. P3 the Part IV forward-reference in §2.3 replaced with
+     "in the human record". P4 abstract now carries the guarded line ("the single
+     line that runs through all three vertices").
+  Gates BOTH ALL GREEN, 10,933 words. Uncommitted: title + MPS + this review round.
