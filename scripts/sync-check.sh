@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 # sync-check.sh — every Dcare.* name in the paper matches a real declaration
-# in /workspace/dcare/lean, and every Typed./Term./Ty. constructor matches a
-# real constructor/def. Exit 0 = green.
+# in the mechanization sources (default ~/coglib/lean, override with LEAN_DIR),
+# and every Typed./Term./Ty. constructor matches a real constructor/def.
+# Exit 0 = green.
 set -u
 HERE="$(cd "$(dirname "$0")" && pwd)"
 PAPER="${1:-$HERE/../paper.md}"
-LEAN="/workspace/dcare/lean"
+LEAN="${LEAN_DIR:-$HOME/coglib/lean}"
 fail=0
 red()   { printf '\033[31m%s\033[0m\n' "$*"; }
 green() { printf '\033[32m%s\033[0m\n' "$*"; }
