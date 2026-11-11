@@ -168,3 +168,69 @@ scripts/sync-check.sh (both spiked before writing). Citation ledger: citations.m
      are the two sorried theorems, unnameable in the paper by our own gate);
      citations.md stale §3.8→§3.9; four available-uncited rows marked.
   Gates BOTH ALL GREEN after all fixes.
+- COMPANION RECONCILIATION (user: "the formalisation has come a long way... read the
+  entire paper"): read dcare/paper/paper.md in full (6.3k words, "The Care Calculus")
+  and verified every new claim against the tree before touching our paper. The
+  companion now has: 192 theorem declarations; the LINEAR CUT mechanized (Cut.lean:
+  Dcare.linear_cut + linear_beta_splice — substitution with size law) and subject
+  reduction along a path (Chase.lean: Dcare.reduce_at); flowEq (the total accounting
+  EQUALITY); spin_pays_forever_buys_nothing (the priced spin); the diagnostic premise
+  now a THEOREM (kprop — Diagnostic_main proven, was sorried); the feedback dynamics
+  mechanized (FeedbackAgent, extractor, NeverConsults, extractor_step_integrates —
+  the not-answered failure mode); the two classical linearity laws in five fragment
+  strengths (Path.lean 3.3k lines; unrestricted forms remain the only 2 sorries);
+  the quantum no-cloning/no-deleting identification (Wootters-Zurek, Pati-Braunstein,
+  Abramsky-Coecke). ISOMORPHISM-PAPER UPDATES (all sync-verified against the tree):
+  §1.2 mechanized-cut paragraph (cut step machine-checked; global normalization still
+  cited; metacircularity still the sketched half); §1.6 honesty-table row updated;
+  §3.2 linear-cut anchor sentence; §3.3 priced-spin sentence; §3.6 feedback row now
+  dynamics-mechanized (extractor); scope item 2 restated to the companion's current
+  open items; References + ledger dcare row now carry the companion's TITLE ("The
+  Care Calculus: A Mechanized Linear Type Theory for Safe Agents"). NOTE: our gate's
+  ban on Diagnostic_main is now stale (it is proven) but harmless — the name is
+  simply unused in this paper. Gates BOTH ALL GREEN, 10,081 words.
+- DELTA REVIEW (w7): verdict NO BLOCKER, delta accurate against both the Lean tree and
+  the companion paper ("cut admissibility at the step / global normalization remains
+  cited" boundary confirmed correct; spin cost-reading attribution split clean;
+  "five fragment strengths" is the companion's own summary; interface consistent both
+  directions). 1 SHOULD-FIX applied: Appendix A was missing the six new anchors —
+  added (linear_cut, linear_beta_splice, reduce_at, spin_pays_forever_buys_nothing,
+  extractor block incl. extractor_never_consults). 3 POLISH applied: §3.6 row credits
+  the never-consults half to its own theorem; ledger hedges "192" with the companion's
+  "at time of writing" (live tree: 200); §1.2 gains its missing [MEASURED] marker.
+  Gates BOTH ALL GREEN.
+- NEW-THEOREM RAMIFICATIONS + LEDGER FINDINGS (user's two questions). Ledger findings
+  mined: #86 (no-cloning/no-deleting identification), #95 (reduction-is-a-debt:
+  destructors are debtors, guarded fixpoint the ONLY positive stream entry), #101
+  (mutual promise is a redox), #114 (cut = resolution of circular obligation), #118
+  (naturality precision — companion's business, not ours). SIX additions, all
+  labels-attributed (readings marked INTERPRETATION—companion's; equalities MEASURED):
+  (1) §1.5 quantum pointer (one sentence, cites the companion's identification);
+  (2) §3.2 the cut as obligation-discharge — normal form = ledger with no pending
+  promises; (3) §3.3 THE ACCOUNTING LAYER (the strongest ramification): flowEq +
+  debtor structure + fixpoint-only-payer + the ODE model's own title ("a standing-cost
+  budget") — "paid self-application is not a metaphor on either side"; (4) §3.4
+  fix_unfold_at_knower anchor (the one-tick unfolding, machine-checked); (5) §3.7 new
+  semantic-values bullet: the model itself is a ledger, dynamical counterpart of flowEq;
+  (6) §3.9 the extractor boundary: an agent satisfying every formal guarantee Φ names
+  and still failing — "the correspondence certifies structure; care is not among the
+  structures it certifies." Gates BOTH ALL GREEN, ~10.4k words.
+- LEAN SWEEP for missed anchors (user: "check the lean to see if we missed others"): full
+  diff of the tree's 304 top-level declarations vs the paper's 31 cited names. FOUR
+  misses had isomorphic content, all added with sync-verified names: (1) §3.3 the
+  stream account now NAMED (Dcare.sFlowEq — the debtor equality is MEASURED-by-name,
+  the loan/pays-in reading stays the companion's INTERPRETATION) + every fix-mint is
+  knower-fed (Dcare.fix_knower_supply — even the minting side traces to a live source);
+  (2) §3.4 no closed term inhabits ▷stream in the fix-free fragment
+  (Dcare.no_closed_later_stream) — even a bare promise of a future stream requires a
+  live source now; (3) §3.9 the substrate-blindness adversary (Dcare.adversary_blind_
+  transfer — the T3 non-vacuity witness: one policy, two generators, protection fails
+  on one; "even the structural guarantee is relational") + inert_knowledge named in the
+  extractor sentence and appendix row. DELIBERATELY DECLINED: the diagnostic family
+  (Diagnostic_main/kprop/IsProtective/protective_needsK/no_closed_protective_guard —
+  the companion's care payload, would blur the two papers); the chase/fragment
+  machinery (no_vanishing_clean/parkfree, origin_lemma, stream_origin, sinks_extract,
+  tFlowEq, netEq, DeepConsume, ParkFree, Prem/Path/Sub — internal, upshot already
+  carried by scope item 2's "five fragment strengths"); dynamics plumbing subsumed by
+  cited results (always_continue_infinite, run_not_infinite_is_finite,
+  looped_only_spins, fix_unfold_closed). Gates BOTH ALL GREEN, ~10.6k words.
