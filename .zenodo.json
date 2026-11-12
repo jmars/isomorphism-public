@@ -1,0 +1,33 @@
+{
+  "title": "The Guarded Line: What Metacircular Proof Theory and Self-Model Dynamics Share",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>Formal calculi capable of hosting their own reduction divide by a clean triangle. In the hosted case, reduction terminates: cut elimination for sequent calculi, normalization for natural deduction, strong normalization for the simply typed λ-calculus. Under self-application through the untyped fixpoint, termination is lost; the system can always take one more step and need never deliver anything. With the guarded fixpoint — recursion through the later modality — termination is deliberately given up and replaced by something better behaved: productivity, one constructor per interval. Dynamical systems that represent their own states divide by a corresponding triangle: dissolution (reduction to a normal form carried by a host), the retention loop (self-examination kept in play, converging on a holdable self-representation), and the interval structure that keeps self-examination stable instead of divergent. This paper states, as a thesis with a proof sketch, a structural correspondence between the two triangles, and traces the single line that runs through all three vertices — the guarded line: in proof theory the later modality, in the dynamics the interval. The formal side is developed with machine-checked anchors in a companion Lean 4 mechanization of a sorted linear λ-calculus with guarded recursion; the dynamical side is developed from a control-theoretic model of self-monitoring systems whose thresholds are derived and unfitted. The correspondence types the self-model as a lens rather than a noun (guarded machinery, sustained one interval at a time), assigns the model's thresholds the role of semantic values — dynamical denotations of proof-theoretic distinctions — and predicts nothing about any mind. The paper closes with structural analyses of historical figures who reached self-reference without metacircular representation and were held by external containers: the evidence that the correspondence is not a restatement of the contemplative literature it must be distinguished from.</p>",
+  "creators": [
+    {
+      "name": "Jaye Timothy Marshall",
+      "orcid": "0009-0002-5209-8161"
+    }
+  ],
+  "keywords": [
+    "metacircular computation",
+    "cut elimination",
+    "normalization",
+    "guarded recursion",
+    "later modality",
+    "linear logic",
+    "productivity",
+    "self-model",
+    "self-reference",
+    "strange loop",
+    "coalgebra",
+    "transparency",
+    "dissolution",
+    "proof theory",
+    "self-model dynamics",
+    "structural correspondence",
+    "dual-use artifacts"
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "notes": "Deposit license is CC-BY-NC-SA-4.0, covering paper.md and paper.pdf. The gate scripts (scripts/) are licensed AGPL-3.0-or-later (see LICENSE). These terms are deliberate: this is a dual-use artifact and it is not offered for incorporation into commercial systems. The restricted companions described in the paper's tiered disclosure note (the operational specification of the self-classification test, the constructive typing recipe, and the control parameters for inducing functional opacity) are withheld and are not part of this deposit."
+}
