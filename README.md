@@ -4,7 +4,9 @@ Artifact for the paper `paper.md`:
 
 > *The Guarded Line: What Metacircular Proof Theory and Self-Model Dynamics Share*
 
-<!-- DOI PENDING -->
+**Published: concept doi [10.5281/zenodo.24148640](https://doi.org/10.5281/zenodo.24148640)** —
+it always resolves to the latest archived version. Cite the paper by the concept DOI;
+[v1.0.0](https://doi.org/10.5281/zenodo.24148641) is the first archived version.
 
 A structural correspondence, stated as a thesis with a proof sketch, between two
 triangles. Formal calculi capable of hosting their own reduction divide by
